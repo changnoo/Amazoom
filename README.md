@@ -1,9 +1,9 @@
-## Amazoon
+## Amazoom
 
-An Amazon clone. This clone automatically simulates a warehouse in real-time. For example, when an order is placed through our webpage, robots will physically move around the warehouse, gather the order's items and place them into a truck, all without any human interaction. Synchronization is achieved through mutual exclusion and a database that holds live information about orders and items. Completed as a term project for a Systems Software Engineering course. Written in C# with an ASP.NET MVC webpage, MongoDB database and WinForms as a graphical display for the warehouse. <br>
+This is the final project that my team and I worked on for CPEN 333. Amazoom, an Amazon clone, simulates a warehouse with items, robots, and trucks in real-time. A user can place an order throuhgh our web interface, and restocking trucks will be called to restock items that are low in stock, and robots will begin physically moving around the warehouse to execute various tasks. The robots then ship the products from the warehouse into the delivery trucks, and the customer receives their order. This project was built with multithreading in C#, with an ASP.NET MVC webpage, MongoDB database and WPF as a graphical user inteface for the warehouse status.<br>
 
 ### Features 
-* __Order Placement through __Amazoon__ website__
+* __Order Placement through __Amazoom__ website__
   * Beautiful clien-interface
   * Order sent to database
 * __Order fulfillment__ 📦
